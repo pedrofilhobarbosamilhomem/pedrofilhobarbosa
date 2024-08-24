@@ -1,0 +1,157 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+body {
+    background-color: beige;
+}
+/* Altera a cor do texto de todos os parágrafos */
+p {
+  color: #150981fd; /* Hexadecimal */
+}
+
+h1 {
+  color: rgb(250, 6, 6); /* RGB */
+}
+
+h2 {
+  color: hsl(0, 14%, 4%); /* HSL */
+}
+/* Altera a cor de fundo de uma div */
+div {
+  background-color: #acaaa6; /* Hexadecimal */
+}
+
+header {
+  
+footer {
+  background-color: hsla(200, 100%, 50%, 0.8); /* HSL com opacidade */
+}
+.container {
+    background-color: rgb(48, 45, 40); /* Código hexadecimal para laranja */
+}
+
+/* Define a cor de fundo para o corpo do site */
+body {
+    background-color: rgb(211, 140, 9);
+
+}body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(73, 1, 1);
+    color: rgb(8, 4, 4);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+body {
+    background-color: beige;
+}
+/* Altera a cor do texto de todos os parágrafos */
+p {
+  color: #150981fd; /* Hexadecimal */
+}
+
+h1 {
+  color: rgb(250, 6, 6); /* RGB */
+}
+
+h2 {
+  color: hsl(0, 26%, 95%); /* HSL */
+}
+/* Altera a cor de fundo de uma div */
+div {
+  background-color: #d4af65; /* Hexadecimal */
+}
+
+header {
+  
+footer {
+  background-color: hsla(200, 100%, 50%, 0.8); /* HSL com opacidade */
+}
+.container {
+    background-color: rgb(216, 214, 211); /* Código hexadecimal para laranja */
+}
+
+/* Define a cor de fundo para o corpo do site */
+body {
+    background-color: rgb(211, 140, 9);
+    
+
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cardapio {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+.imagem-cardapio {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+
+
+
+
+
+
