@@ -1,0 +1,41 @@
+// scripts.js
+document.addEventListener('DOMContentLoaded', function () {
+  const cookieBanner = document.getElementById('cookie-banner');
+  const acceptCookiesButton = document.getElementById('accept-cookies');
+
+  // Verifica se o cookie de aceitação já existe
+  if (!getCookie('cookies-accepted')) {
+    cookieBanner.style.display = 'block';
+  }
+
+  // Configura o cookie quando o botão é clicado
+  acceptCookiesButton.addEventListener('click', function () {
+    setCookie('cookies-accepted', 'true', 365); // O cookie expira em 365 dias
+    cookieBanner.style.display = 'none';
+  });
+
+  // Função para definir um cookie
+  function setCookie(name, value, days) {
+    let expires = "";
+    if (days) {
+      const date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "") + expires + "; path=/";
+  }
+
+  // Função para obter um cookie
+  function getCookie(name) {
+    const nameEQ = name + "=";
+    const ca = document.cookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+  }
+});
+
+
